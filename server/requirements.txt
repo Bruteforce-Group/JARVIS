@@ -15,4 +15,7 @@ timm==0.6.13
 typeguard==2.13.3
 accelerate==0.18.0
 pytesseract==0.3.10
-gradio==3.34.0
+gradio==5.35.0
+aiohttp>=3.12.14 # not directly required, pinned by Snyk to avoid a vulnerability
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
